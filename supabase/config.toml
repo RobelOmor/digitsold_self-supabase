@@ -1,0 +1,73 @@
+project_id = "uiuqpvlewcnxegtzsdjt"
+
+[functions.manage-security]
+verify_jwt = false
+
+[functions.encrypt-stock]
+verify_jwt = true
+
+[functions.decrypt-order]
+verify_jwt = true
+
+[functions.decrypt-seller-stock]
+verify_jwt = true
+
+[functions.verify-balance]
+verify_jwt = true
+
+[functions.approve-deposit]
+verify_jwt = true
+
+[functions.manage-session]
+verify_jwt = true
+
+[functions.approve-seller-product]
+verify_jwt = true
+
+[functions.track-refresh]
+verify_jwt = true
+
+[functions.log-login]
+verify_jwt = false
+
+[functions.manage-payment-methods]
+verify_jwt = true
+
+[functions.manage-seller-pin]
+verify_jwt = true
+
+[functions.reset-website]
+verify_jwt = true
+
+[functions.log-deposit-attempt]
+verify_jwt = true
+
+[functions.admin-refund-order]
+verify_jwt = true
+
+[functions.manage-2fa]
+verify_jwt = true
+
+[functions.encrypt-sensitive-data]
+verify_jwt = true
+
+[functions.moderate-chat-message]
+verify_jwt = true
+
+[functions.backup-database]
+verify_jwt = true
+
+[functions.take-seller-stock]
+verify_jwt = true
+
+[functions.decrypt-take-stock-history]
+verify_jwt = true
+
+[functions.check-email-exists]
+verify_jwt = false
+
+[functions.take-admin-stock]
+verify_jwt = true
+
+[functions.reseller-telegram-bot]
+verify_jwt = false
